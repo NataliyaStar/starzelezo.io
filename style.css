@@ -1,0 +1,252 @@
+body {
+    background: #f8f8f8;
+    background-color: lavender;
+    font-family: Georgia, serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    height: 200px;
+    background: url(img/bci%201.jpg) no-repeat center bottom;
+}
+
+.logo {
+    background: none;    
+    float:left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.menu li {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    list-style-type: none;
+    letter-spacing: 1px;
+    float: right;
+    margin-right: 5px;
+    border: 1px solid aliceblue;
+    background-color: aliceblue;
+    background: linear-gradient(to top, #E8F5FF, #F8F5FF);
+    border-radius: 5px;
+    opacity: 90%;
+}
+
+ul.menu a:hover {
+    font-size: 24px;
+    color: #088A85;
+}
+
+ul.menu a {
+    font-weight: normal;
+    font-size: 20px;
+    color: #7d7f7d;
+    text-decoration: none;
+}
+
+.container_welcome {
+    height: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #DBCCD7;
+    background: linear-gradient(to top, #f2e1ee, #F8F5FF);
+}
+
+#shop_item {
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-left: 20px;
+}
+
+p a:visited {
+    color: blueviolet;
+}
+
+.product-list {
+    display: flex;
+    clear: both;  
+}
+
+.product-list a:hover{
+    color: coral;
+}
+
+.gaimer_noutbook {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 5px #9932CC;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.noutbookHP {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 5px #9932CC;
+    margin-left: 20px;
+}
+
+.heading {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.text:first-letter {
+    margin-left: 10px;
+    color: blueviolet;
+    font-size: 20px;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+    color: brown;
+    font-size: 17px;
+}
+
+textarea {
+    height: 150px;
+    width: 300px;
+    color: brown;
+    font-size: 17px;
+}
+
+.list li {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    list-style-type: square;
+}
+
+.menu li a:hover {
+    color: darkred;
+}
+
+.email:focus {
+    color: cornflowerblue;
+    background-color: aqua;
+}
+
+input {
+    text-transform: capitalize;
+}
+
+textarea {
+    text-transform: capitalize;
+}
+
+#contactform{
+    box-shadow: 0 0 5px #9932CC;
+    width: 400px;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+.table1 {
+    border: 1px solid #000;
+    width: 500px;
+    height: 200px;
+    border-collapse: collapse;
+}
+
+td {
+    width: 500px;
+    border: 1px solid #000;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.menu {
+    float: right;
+    position: relative;
+    right: 200px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.img {
+    display: block;
+    float: left;
+    clear: both;
+}
+
+.price {
+    color: blueviolet;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    padding-left: 300px;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+button:active {
+    background-color: darkmagenta;
+}
+
+button {
+    margin-left: 5px;
+    margin-top: 10px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    width: 150px;
+    height: 45px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footer {
+    margin-top: 60px;
+    background-color: #D8BFD8;
+    height: 200px;
+    clear: both;
+}
+
+.footer p {
+    margin-right: 30px;
+    float: right;
+}
